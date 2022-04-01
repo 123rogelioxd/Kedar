@@ -1,0 +1,105 @@
+.contact__box {
+    background-image: linear-gradient( 65.5deg, rgba(23, 205, 205, 1) -15.1%, rgba(23, 25, 95, 1) 71.5%);
+    border-radius: 10px;
+}
+
+.icon--close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(249, 49, 84);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.icon--close:hover {
+    box-shadow: 0 0 7px 5px rgb(0, 0, 0, .15);
+    transform: rotate(360deg);
+}
+
+.icon--close:active {
+    transform: scale(0.9);
+}
+
+.contact__box--title {
+    color: #fff;
+}
+
+.contact__box--subtitle {
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content__link {
+    width: 150px;
+    padding: 20px 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #fff;
+    border: solid 2px rgba(0, 0, 0, .01);
+    border-bottom: solid 4px #FFA900;
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0, .1);
+    transition: var(--transition);
+}
+
+.content__link:hover {
+    border: solid 2px #FFA900;
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0, .15);
+    border-bottom: solid 4px #FFA900;
+}
+
+.content__link:active {
+    transform: scale(0.9);
+}
+
+.content__link--icon {
+    font-size: 45px;
+}
+
+.content__link--icon.fa-envelope-open-text {
+    color: #DB4437;
+}
+
+.content__link--icon.fa-facebook-messenger {
+    color: #00B2FF;
+}
+
+.content__link--icon.fa-whatsapp {
+    color: #25d366;
+}
+
+.content__link--icon.fa-telegram {
+    color: #0088cc;
+}
+
+.content__link--name {
+    color: rgba(0, 0, 0, .87);
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 10px;
+    border-bottom: dotted 1px rgba(0, 0, 0, .47);
+}
